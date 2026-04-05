@@ -8,10 +8,41 @@
   margin: 0 auto;
   padding: 0 20px;
 }
+section {
+  background-color: #0a22f4;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+textarea {
+  resize: none;
+}
+iframe {
+  max-width: 100%;
+  height: 80%;
+  filter: invert(100%);
+  border-bottom: 4px solid;
+  border-left: 4px solid;
+  border-radius: 10px;
+  border-color: #ffffff;
+}
 a {
   text-decoration: none;
 }
 .parrent {
   display: flex;
+}
+.contact {
   justify-content: left;
+}
+.form-field {
+  grid-column: 2 / -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+}
+
+button {
+  width: 60px;
+  height: 20px;
 }
