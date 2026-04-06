@@ -98,6 +98,10 @@ input {
   display: flex;
   margin-top: 10px;
 }
+/* ::placeholder {
+  color: #ffffff;
+  font-weight: bold;
+} */
 ::placeholder {
   color: #ffffff;
   font-weight: bold;
