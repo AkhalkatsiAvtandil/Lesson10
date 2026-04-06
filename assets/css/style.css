@@ -98,3 +98,7 @@ input {
   display: flex;
   margin-top: 10px;
 }
+::placeholder {
+  color: #ffffff;
+  font-weight: bold;
+}
